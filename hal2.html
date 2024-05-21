@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar PHP</title>
+  </head>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .judul {
+      text-align: center;
+      background: #21897e;
+      color: #fff;
+      padding: 30px;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; /* Mengatur jarak antara kartu-kartu */
+    }
+
+    .card {
+      width: 25%; /* Lebar relatif untuk setiap kartu */
+      margin-bottom: 20px; /* Jarak bawah antara kartu-kartu */
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      max-width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      margin-top: 15px;
+      padding: 15px;
+      background-color: #69d1c5;
+      color: #fff;
+      font-style: italic;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #5fb8ad;
+    }
+
+    /* Media queries untuk responsif */
+    @media (max-width: 768px) {
+      .card {
+        width: calc(50% - 20px); /* Mengatur dua kartu dalam satu baris */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        width: calc(100% - 20px); /* Mengatur satu kartu per baris */
+      }
+    }
+  </style>
+  <body>
+    <h1 class="judul">Belajar PHP</h1>
+    <div class="container">
+      <div class="card">
+        <img src="foto/download (18).jpeg" alt="Image 1" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/pratikum/pt1.php" class="pt"><button>Praktikum 1</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/Letter S logo.jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/pratikum/pt2.php" class="pt"><button>Praktikum 2</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/Play icon logo.jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/pratikum/p3.php" class="pt"><button>Praktikum 3</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/Letter S logo.jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/perulangan/perulangan1.php" class="a"><button>Perulangan 1</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/Play icon logo.jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/perulangan/perulangan2.php" class="a"><button>Perulangan 2</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/download (18).jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/perulangan/perulangan3.php" class="a"><button>Perulangan 3</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/Play icon logo.jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/perulangan/perulangan4.php" class="a"><button>Perulangan 4</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/download (18).jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/perulangan/perulangan5.php" class="a"><button>Perulangan 5</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/Letter S logo.jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/perulangan/perulangan6.php" class="a"><button>Perulangan 6</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/download (18).jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/kondisi/kondisi1.php" class="b1"><button>Kondisi 1</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/Play icon logo.jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/kondisi/kondisi2.php" class="b1"><button>Kondisi 2</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/Letter S logo.jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/kondisi/kondisi3.php" class="b1"><button>Kondisi 3</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/Play icon logo.jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="kondisi3.php" class="b1"><button>Kondisi 4</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/Letter S logo.jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/fuction/function1.php" class="fungsi"><button>Fungsi 1</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/download (18).jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/fuction/function2.php" class="fungsi"><button>Fungsi 2</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/Play icon logo.jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/array/array1.php" class="array"><button>Array 1</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/Letter S logo.jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/array/array2.php" class="array"><button>Array 2</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/download (18).jpeg" alt="Image 2" />
+        <div class="card-content">
+          <a href="https://github.com/liliana2110/materi_php/blob/master/array/array3.php" class="array"><button>Array 3</button></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
